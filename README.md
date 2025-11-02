@@ -1,4 +1,5 @@
 # 🎯 QuizUpNow! – Ready... Set... Answer!  
+🔗 **Live Demo:** [QuizUpNow on GitHub Pages](https://gayatrirede.github.io/QuizUpNow/)
 
 **QuizUpNow!** is an interactive web-based quiz app built using HTML, CSS, and JavaScript.  
 It lets users pick quiz topics, choose difficulty levels, and get instant feedback with sound effects and animations.  
@@ -18,10 +19,6 @@ It lets users pick quiz topics, choose difficulty levels, and get instant feedba
 
 ## 📸 Preview
 ![QuizUpNow Screenshot](https://raw.githubusercontent.com/Gayatrirede/QuizUpNow/refs/heads/main/Screenshot%202025-11-02%20203537.png)
-![QuizUpNow Screenshot](https://raw.githubusercontent.com/Gayatrirede/QuizUpNow/refs/heads/main/Screenshot%202025-11-02%20203551.png)
-![QuizUpNow Screenshot](https://raw.githubusercontent.com/Gayatrirede/QuizUpNow/refs/heads/main/Screenshot%202025-11-02%20203601.png)
-![QuizUpNow Screenshot](https://raw.githubusercontent.com/Gayatrirede/QuizUpNow/refs/heads/main/Screenshot%202025-11-02%20203622.png)
-![QuizUpNow Screenshot](https://raw.githubusercontent.com/Gayatrirede/QuizUpNow/refs/heads/main/Screenshot%202025-11-02%20203650.png)
 ![QuizUpNow Screenshot](https://raw.githubusercontent.com/Gayatrirede/QuizUpNow/refs/heads/main/Screenshot%202025-11-02%20203658.png)
 
 
