@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizUpNow! - Ready...Set...Answer</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" href="./quizupnow logo.png" type="image/png">
+
+</head>
+
+<body>
+    <div class="quiz-container">
+
+        <!-- HOME SCREEN -->
+        <div id="home-screen">
+            <img src="./quizupnow logo.png" alt="QuizUpNow" class="logo">
+
+            <h1>Welcome to <span class="highlight">QuizUpNow!</span></h1>
+            <h2 class="tagline">Ready... Set... Answer!</h2>
+
+            <p class="description">
+                Your space to explore, learn, and challenge your mind.<br>
+                Click start to select your topic and begin your journey to the top of the leaderboard! 🚀
+            </p>
+            <button id="start-btn">Start Quiz</button>
+        </div>
+
+        <!-- SELECTION DASHBOARD -->
+        <div id="selection-dashboard" class="hidden">
+            <h2>Select Your Challenge 🎯</h2>
+            <p>Select your quiz topic and difficulty level to get started!</p>
+
+            <div class="selection-group">
+                <label for="category-select">Choose Topic:</label>
+                <select id="category-select">
+                    <option value="web_dev">Web Development</option>
+                    <option value="math">Mathematics</option>
+                    <option value="gk">General Knowledge</option>
+                </select>
+            </div>
+
+            <div class="selection-group">
+                <label for="difficulty-select">Choose Difficulty:</label>
+                <select id="difficulty-select">
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+            </div>
+
+            <button id="go-btn">Go!</button>
+            <button id="back-to-home-btn" class="secondary-btn">⬅ Back to Home</button>
+        </div>
+
+        <!-- QUIZ AREA -->
+        <div id="quiz-area" class="hidden">
+            <div id="progress-bar-container">
+                <div id="progress-bar"></div>
+            </div>
+
+            <h2 id="question-text">Question loading...</h2>
+            <div id="options-container" class="options"></div>
+                    </div>
+
+        <!-- RESULTS SCREEN -->
+        <div id="results-screen" class="hidden">
+            <h2>Quiz Finished! 🏆</h2>
+            <p>Your final score is: <span id="final-score">0</span> out of <span id="total-questions">0</span></p>
+            <p id="feedback-message"></p>
+
+            <button id="review-btn">Review Mistakes </button>
+            <button id="restart-btn">Try Another Quiz</button>
+        </div>
+
+        <!-- REVIEW SCREEN -->
+        <div id="review-screen" class="hidden">
+            <h2>Your Mistakes 🧐</h2>
+            <div id="mistake-list"></div>
+            <button id="back-to-results-btn">Back to Summary</button>
+        </div>
+    </div>
+
+    <!-- SOUND EFFECTS -->
+    <audio id="sound-correct" src="./sounds/correct ans sound.wav" preload="auto"></audio>
+    <audio id="sound-wrong" src="./sounds/wrong ans sound.wav" preload="auto"></audio>
+    <audio id="sound-finish" src="./sounds/win sound.wav" preload="auto"></audio>
+    <audio id="sound-click" src="./sounds/button cliked .mp3" preload="auto"></audio>
+
+    <div id="emoji-container"></div>    
+
+    <script src="quiz-data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
