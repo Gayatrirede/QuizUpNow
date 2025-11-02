@@ -17,7 +17,7 @@ It lets users pick quiz topics, choose difficulty levels, and get instant feedba
 - Vanilla JavaScript (no frameworks)
 
 ## 📸 Preview
-![QuizUpNow Screenshot](./preview.png)
+![QuizUpNow Screenshot](https://raw.githubusercontent.com/Gayatrirede/QuizUpNow/refs/heads/main/Screenshot%202025-11-02%20203537.png)
 
 
 
