@@ -12,22 +12,22 @@ It lets users pick quiz topics, choose difficulty levels, and get instant feedba
 - 📊 Progress bar and result summary
 - 🔁 Review section to learn from mistakes  
 
-## 🛠️ Tech Stack
+# Tech Stack
 - HTML5  
 - CSS3 (responsive design + animations)  
 - Vanilla JavaScript (no frameworks)
 
-## 📸 Preview
+# Preview
 ![QuizUpNow Screenshot](https://raw.githubusercontent.com/Gayatrirede/QuizUpNow/refs/heads/main/Screenshot%202025-11-02%20203537.png)
 ![QuizUpNow Screenshot](https://raw.githubusercontent.com/Gayatrirede/QuizUpNow/refs/heads/main/Screenshot%202025-11-02%20203658.png)
 
 
 
-## 🏁 How to Run
+# How to Run
 1. Clone or download this repository.  
 2. Open `index.html` in your browser.  
 3. Click **Start Quiz** and have fun learning!
 
 ---
 
-✨ *Built with curiosity and creativity by [Your Name]*  
+ Built with curiosity and creativity by Gayatri Rede  
