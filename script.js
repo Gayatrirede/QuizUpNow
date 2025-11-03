@@ -1,11 +1,10 @@
-// 🎯 QUIZUPNOW! — Final Optimized Version (with Randomization & Sound Fix)
+// 🎯 QUIZUPNOW! — Final Optimized Version 
 
 //  SOUND SETUP
 const soundClick = document.getElementById("sound-click");
 const soundCorrect = document.getElementById("sound-correct");
 const soundWrong = document.getElementById("sound-wrong");
 const soundFinish = document.getElementById("sound-finish");
-
 //  SECTIONS
 const homeScreen = document.getElementById("home-screen");
 const selectionDashboard = document.getElementById("selection-dashboard");
@@ -225,3 +224,4 @@ function triggerCelebration() {
     setTimeout(() => emoji.remove(), 3000);
   }
 }
+
